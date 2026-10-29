@@ -1,24 +1,93 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.Scanner;
+
+//import static org.example.Car.add;
+//import static org.example.Car.sub;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        int age = 20;  //  conditional statement
+        Car myCar = new Car("Bmw", 2025);
+        System.out.println(myCar.make  + " _ " + " _ " + myCar.year);
+//        SuperSportRide obj = new SuperSportRide();
+//        obj.brand = "BMW";
+//        obj.color = "White";
+//        obj.price = 15.20;
+//        obj.superSpeed = 2000;
+//        obj.remoteControl = "BDY";
+//        obj.driver = "Promise FearGod";
+//
+//        System.out.println(obj.brand  + " " + " " + " " + obj.color + " "+ " " + obj.price + " " + obj.superSpeed + " " + obj.remoteControl + " " + obj.driver);
+//        System.out.println("This is a super super fast car");
+//        int n = add (5,7);
+//        int m = sub(9,3);
+//
+//        int result = n & m;
+//
+//        System.out.println(result);
+        //Arrays
 
-        if (age >= 18)
-        {
-            System.out.println("You are an adult");
-        }
-        else if(age <= 18)
-        {
-            System.out.println("You are not eligible");
-        }
-        else
-            System.out.println("Nothing");
+//        double prices [] = {99.9, 19.50, 3.27 };
+//        System.out.println(prices);
+////        int [][] matric = {
+//                {1, 5, 9},Car obj = new Car();
+//        obj.brand = "BMW";
+//        obj.price = 55.5000000F;
+//        obj.owner = "FearGod";
+//        obj.color = "Navy blue";
+//
+//        System.out.println(obj.brand  +  "  " + obj.price  + "  " + "  " + "  " + obj.owner + "  " +    "  " + obj.color);
+//                {9, 5, 4},
+//                {7, 3, 8},
+//
+//        };
+//
+//        System.out.println(matric);
+////        int [] numbers = new int [4];
+//        numbers [0] = 7;
+//        numbers [1] = 9;
+//        numbers [2] = 4;
+//        numbers [3] = 1;
+//
+//
+//        System.out.println();
+////        int [] num = {1, 3, 5, 9};
+//
+//        System.out.println(num[0]);
+//        System.out.println(num.length);
+//        for (int i = 1; i<=5; i++)  //Loop
+//        {
+//            System.out.println(i);
+//        }
+//
+//        int count = 1;
+//        while (count <=5) {
+//            System.out.println(count);
+//        }
+//        count ++;
+//
+//        String [] names = {"Ada", "Mathew", "Pogba"};
+//        for (String name : names)
+//        {
+//            System.out.println(name);
+//        }
+
+//        int age = 20;  //  conditional statement
+//
+//        if (age >= 18)
+//        {
+//            System.out.println("You are an adult");
+//        }
+//        else if(age <= 18)
+//        {
+//            System.out.println("You are not eligible");
+//        }
+//        else
+//            System.out.println("Nothing");
 //        Scanner scanner = new Scanner(System.in);
 //
 //        System.out.println("Promise FearGod");
